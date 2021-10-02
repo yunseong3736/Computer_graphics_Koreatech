@@ -1,0 +1,10 @@
+﻿  practice03_4.cpp
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(32,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(32,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(43,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(43,20): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(78,32): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(78,22): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(89,32): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_4\practice03_4.cpp(89,22): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  practice03_4.vcxproj -> C:\Projects\Computer_graphics_cse\practice03\practice03\Debug\practice03_4.exe
