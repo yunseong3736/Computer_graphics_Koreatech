@@ -1,3 +1,4 @@
 ﻿  Sierpinski_Gasket.cpp
-C:\Projects\Computer_graphics_cse\practice03\practice03\practice03_5\Sierpinski_Gasket.cpp(6,62): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
-  practice03_5.vcxproj -> C:\Projects\Computer_graphics_cse\practice03\practice03\Debug\practice03_5.exe
+C:\Projects\Computer_graphics_Koreatech\practice03\practice03_5\Sierpinski_Gasket.cpp(8,62): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\practice03\practice03_5\Sierpinski_Gasket.cpp(12,35): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+  practice03_5.vcxproj -> C:\Projects\Computer_graphics_Koreatech\practice03\Debug\practice03_5.exe
