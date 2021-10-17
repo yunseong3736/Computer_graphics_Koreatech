@@ -1,10 +1,10 @@
 #include "glCho.h"
 
 //동차좌표계로 표시함
-static double P[12] = { 
-	0.3,0.2,0.1,1,   
-	0.7,0.2,0.1,1,   
-	0.5,0.7,0.1,1 
+static double P[12] = {
+	0.3,0.2,0.1,1,
+	0.7,0.2,0.1,1,
+	0.5,0.7,0.1,1
 };
 
 //p를 변환해서 q를 만들 것임.
@@ -219,7 +219,7 @@ int main(int argc, char** argv) {
 	glutKeyboardFunc(keyboard);		//키보드 콜백 등록
 	glutMouseFunc(mouseClick);		//마우스 클릭 콜백 등록
 	glutMotionFunc(mouseMotion);	//마우스 모션 콜백 등록
-	
+
 	//Rotation 서브메뉴 등록
 	GLint MySubMenuID = glutCreateMenu(choSubMenu);
 	glutAddMenuEntry("X", 'x');
@@ -244,7 +244,7 @@ int main(int argc, char** argv) {
 	glutAddMenuEntry("My own method", 'M');
 	glutAddMenuEntry("Exit", 'q');
 	glutAttachMenu(GLUT_RIGHT_BUTTON);
-	
+
 	glutDisplayFunc(display);		//디스플레이 콜백 등록
 	glutMainLoop();					//GLUT event processing loop.
 	return 0;

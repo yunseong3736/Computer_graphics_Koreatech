@@ -92,10 +92,10 @@ inline void glChoMatRotateZ(double* m, double a) {
 
 inline void glChoMatShearX(double* m, double dy, double dz)
 {
-	glChoMatSet(m, 
-		1, dy, dz, 0, 
-		0, 1, 0, 0, 
-		0, 0, 1, 0, 
+	glChoMatSet(m,
+		1, dy, dz, 0,
+		0, 1, 0, 0,
+		0, 0, 1, 0,
 		0, 0, 0, 1);
 }
 inline void glChoMatShearY(double* m, double dx, double dz) {
