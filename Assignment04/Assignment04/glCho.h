@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <memory.h>
 #include <gl/glut.h>
-
+#include <stdlib.h>
 #define _USE_MATH_DEFINES // M_PI 등을 사용하기 위함.
 #include <math.h>
 #define SIN(x) sin(x * M_PI / 180. ) // degree 각을 이용한 sin 함수
@@ -32,7 +32,10 @@ inline void glChoMatMult(double* m1, double* m2) {
 	memcpy(m1, n, sizeof(double) * 16);
 }
 
-inline void glChoMatPrint(double* m) {
+//콘솔창에 행렬들을 깨끗하게 출력하는 함수
+inline void glChoMatPrint(double* m, double* p, double* q) {
+	system("cls");
+	printf("변환 행렬\n");
 	for (int i = 0; i < 4; i++) {
 		printf("\t[");
 		for (int j = 0; j < 4; j++)
@@ -40,11 +43,24 @@ inline void glChoMatPrint(double* m) {
 		printf("]\n");
 	}
 	printf("\n");
+	printf("P\n");
+	for (int i = 0; i < 3; i++) {
+		printf("\t[");
+		for (int j = 0; j < 4; j++)
+			printf("%6.2f", p[i * 4 + j]);
+		printf("]\n");
+	}
+	printf("\n");
+	printf("Q\n");
+	for (int i = 0; i < 3; i++) {
+		printf("\t[");
+		for (int j = 0; j < 4; j++)
+			printf("%6.2f", q[i * 4 + j]);
+		printf("]\n");
+	}
+	printf("\n");
 }
 
-inline void glChoMatIdentity(double* m) {
-	glChoMatSet(m, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-}
 inline void glChoMatTrans(double* m, double tx, double ty, double tz) {
 	glChoMatSet(m, 1, 0, 0, tx, 0, 1, 0, ty, 0, 0, 1, tz, 0, 0, 0, 1);
 }
@@ -97,6 +113,7 @@ inline void glChoMatShearZ(double* m, double dx, double dy) {
 		0, 0, 0, 1);
 }
 
+//변환함수, [q] = [M][p]
 inline void glChoTransform(double* m, double* p, double* q) {
 	q[0] = q[1] = q[2] = q[3] = 0;
 	for (int i = 0; i < 4; i++) {
@@ -106,7 +123,7 @@ inline void glChoTransform(double* m, double* p, double* q) {
 		q[3] += m[i + 12] * p[i];
 	}
 }
-
+//간단한 그리기 함수들 : 선분, 삼각형, 좌표축
 inline void glChoLine(double x1, double y1, double z1, double x2, double y2, double z2) {
 	glBegin(GL_LINES);
 	glVertex3d(x1, y1, z1);
@@ -120,7 +137,6 @@ inline void glChoTriangle4d(double* p) {
 	glVertex4dv(p + 8);
 	glEnd();
 }
-
 inline void glChoCoord() {
 	glBegin(GL_LINES);
 	glColor3d(1, 0, 0); glVertex3d(-0.1, 0, 0); glVertex3d(1, 0, 0);
