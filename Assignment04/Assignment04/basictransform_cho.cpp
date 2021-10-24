@@ -235,6 +235,7 @@ int main(int argc, char** argv) {
 	GLint MySubMenuID3 = glutCreateMenu(choSubMenu3);
 	glutAddMenuEntry("o", 's');
 	glutAddMenuEntry("with Fixed point", 'c');
+	
 	GLint MyMainMenuID = glutCreateMenu(choMainMenu);
 	glutAddMenuEntry("Init", 'i');
 	glutAddMenuEntry("Translation", 't');
