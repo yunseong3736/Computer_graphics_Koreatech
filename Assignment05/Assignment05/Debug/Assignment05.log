@@ -1,0 +1,24 @@
+﻿  Chorobot.cpp
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(27,29): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(27,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(33,32): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(33,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(40,30): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(40,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(45,37): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(45,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(53,29): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(53,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(58,36): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(58,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(66,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(66,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(71,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(71,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(79,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(79,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(84,35): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\robot.h(84,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\Chorobot.cpp(52,47): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Projects\Computer_graphics_Koreatech\Assignment05\Assignment05\Chorobot.cpp(53,46): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+  Assignment05.vcxproj -> C:\Projects\Computer_graphics_Koreatech\Assignment05\Debug\Assignment05.exe
