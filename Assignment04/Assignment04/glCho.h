@@ -137,10 +137,10 @@ inline void glChoTriangle4d(double* p) {
 	glVertex4dv(p + 8);
 	glEnd();
 }
-inline void glChoCoord() {
+inline void glChoCoord(float target = 1) {
 	glBegin(GL_LINES);
-	glColor3d(1, 0, 0); glVertex3d(-0.1, 0, 0); glVertex3d(1, 0, 0);
-	glColor3d(0, 1, 0); glVertex3d(0, -0.1, 0); glVertex3d(0, 1, 0);
-	glColor3d(0, 0, 1); glVertex3d(0, 0, -0.1); glVertex3d(0, 0, 1);
+	glColor3d(1, 0, 0); glVertex3d(-0.1, 0, 0); glVertex3d(target, 0, 0);
+	glColor3d(0, 1, 0); glVertex3d(0, -0.1, 0); glVertex3d(0, target, 0);
+	glColor3d(0, 0, 1); glVertex3d(0, 0, -0.1); glVertex3d(0, 0, target);
 	glEnd();
 }
